@@ -105,11 +105,11 @@ export function Headline() {
           aria-label="我的 YouTube"
           platform="youtube"
         /> */}
-        <SocialLink
+        {/* <SocialLink
           href="https://965.cafe/bilibili"
           aria-label="我的 Bilibili"
           platform="bilibili"
-        />
+        /> */}
         <SocialLink
           href="https://965.cafe/github"
           aria-label="我的 GitHub"
