@@ -1,10 +1,10 @@
 export const seo = {
-  title: 'Cali Castle | 开发者、设计师、细节控、创始人',
+  title: '965 Cafe | 前端、程序员、熬夜党、咖啡爱好者、咖啡玩家',
   description:
-    '我叫 Cali，一名开发者，设计师，细节控，同时也是佐玩创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。',
+    '我是 Junting，一名从事前端开发的工程师。也是一位“不太正经”的咖啡师。倾心调制各式咖啡，追求完美的味道和细节，正如我对代码的严谨。咖啡与代码，都是我生活的热爱与追求。',
   url: new URL(
     process.env.NODE_ENV === 'production'
-      ? 'https://cali.so'
+      ? 'https://965.cafe'
       : 'http://localhost:3000'
   ),
 } as const

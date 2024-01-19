@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | Cali Castle',
+    template: '%s | 965 Cafe',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Cali,Cali Castle,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: 'Junting,965,Coder,程序猿,咖啡爱好者,咖啡玩家',
   themeColor: [
     { media: '(prefers-color-scheme: dark)', color: '#000212' },
     { media: '(prefers-color-scheme: light)', color: '#fafafa' },
@@ -38,21 +38,21 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | Cali Castle',
+      template: '%s | 965 Cafe',
     },
     description: seo.description,
-    siteName: 'Cali Castle',
+    siteName: '965 Cafe',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://965.cafe',
   },
-  twitter: {
-    site: '@thecalicastle',
-    creator: '@thecalicastle',
-    card: 'summary_large_image',
-    title: seo.title,
-    description: seo.description,
-  },
+  // twitter: {
+  //   site: '@',
+  //   creator: '@',
+  //   card: 'summary_large_image',
+  //   title: seo.title,
+  //   description: seo.description,
+  // },
   alternates: {
     canonical: url('/'),
     types: {

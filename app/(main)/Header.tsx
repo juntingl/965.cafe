@@ -280,7 +280,7 @@ export function Header() {
                   <ThemeSwitcher />
                 </div>
               </motion.div>
-              {/* 
+              {/*
               <AnimatePresence>
                 {!isHomePage && (
                   <motion.div
