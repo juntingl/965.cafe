@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
 import { SparkleIcon, UserSecurityIcon } from '~/assets'
-import { PeekabooLink } from '~/components/links/PeekabooLink'
+// import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
 function Developer() {
@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      965 yyDS
+      965
     </span>
   )
 }
@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Junting，一名从事前端开发的工程师。也是一位“不太正经”的咖啡师。倾心调制各式咖啡，追求完美的味道和细节，正如我对代码的严谨。咖啡与代码，都是我生活的热爱与追求。
+          我是 Junting，一名从事前端开发的工程师。也是一位“正经”的咖啡师。倾心调制各式咖啡，追求完美的味道和细节，正如我对代码的严谨。咖啡与代码，都是我生活的热爱与追求。
         </Balancer>
       </motion.p>
       <motion.div
