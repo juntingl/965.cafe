@@ -3,7 +3,7 @@ import './clerk.css'
 import './prism.css'
 
 import { ClerkProvider } from '@clerk/nextjs'
-import { type Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 
 import { ThemeProvider } from '~/app/(main)/ThemeProvider'
 import { url } from '~/lib'
@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   },
   description: seo.description,
   keywords: 'Junting,965,Coder,程序猿,咖啡爱好者,咖啡玩家',
-  themeColor: [
-    { media: '(prefers-color-scheme: dark)', color: '#000212' },
-    { media: '(prefers-color-scheme: light)', color: '#fafafa' },
-  ],
+  // themeColor: [
+  //   { media: '(prefers-color-scheme: dark)', color: '#000212' },
+  //   { media: '(prefers-color-scheme: light)', color: '#fafafa' },
+  // ],
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -59,6 +59,13 @@ export const metadata: Metadata = {
       'application/rss+xml': [{ url: 'rss', title: 'RSS 订阅' }],
     },
   },
+}
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: dark)', color: '#000212' },
+    { media: '(prefers-color-scheme: light)', color: '#fafafa' },
+  ],
 }
 
 export default function RootLayout({
