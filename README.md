@@ -1,4 +1,4 @@
-## 我的个人网站
+## Cali 个人博客网站
 
 > 特别感谢 [Cali](https://cali.so/) 的个人网站开源项目。
 
@@ -15,7 +15,7 @@
 - [Framer Motion](https://www.framer.com/motion/)
 - [Radix UI](https://www.radix-ui.com/)
 - [Clerk](https://clerk.com/)
-- [PlanetScale](https://planetscale.com/)
+- [Neon](https://neon.tech/)
 - [Drizzle ORM](https://orm.drizzle.team/)
 - [Sanity](https://www.sanity.io/)
 - [React Email](https://react.email)
@@ -39,3 +39,8 @@ pnpm build
 ```
 
 通过 [Vercel](https://vercel.com/) 一键部署。
+
+### 变更日志
+
+- 2024-03-13: **v2.0** 更新了 Sanity 到最新版，Next.js 到 v14.1，提取了首页图片和工作经历到 Sanity 设置里。
+- 2024-03-10: **v1.1** 从 PlanetScale 数据库迁移到了 [Neon](https://neon.tech/) 数据库（MySQL -> PostgreSQL），因为 PlanetScale [宣布不再支持免费数据库](https://planetscale.com/blog/planetscale-forever)。
