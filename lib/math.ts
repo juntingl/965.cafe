@@ -1,3 +1,10 @@
+/**
+ * 限定取值范围，判定输入值是否是一个有效值，如果超过边界，取贴近边界值
+ * @param value
+ * @param a
+ * @param b
+ * @returns
+ */
 export function clamp(value: number, a: number, b: number) {
   const min = Math.min(a, b)
   const max = Math.max(a, b)
